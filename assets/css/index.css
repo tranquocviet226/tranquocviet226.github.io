@@ -1,0 +1,91 @@
+/* #009C9A */
+
+:root {
+  --primary: #009C9A;
+  --white: #FFF;
+  --black: #000
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#header {
+  height: 56px;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 3px 5px -4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 3px 5px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px -4px rgba(0, 0, 0, 0.5);
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav li {
+  display: inline-block;
+  width: 111px;
+  height: 56px;
+  margin-right: 4px;
+  position: relative;
+}
+
+#nav li div {
+  height: 50px;
+  width: 111px;
+  cursor: pointer;
+  padding-top: 12px;
+}
+
+.active {
+  border-bottom: 3.5px solid var(--primary);
+  padding-top: 2px;
+}
+
+.header_hover {
+  margin-top: 3px;
+}
+
+#nav li .header_hover:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+#nav li .icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  margin: 0 auto;
+}
+
+#nav li:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  color: #F5F6F7;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+}
+
+#content {
+  padding: 20px;
+}

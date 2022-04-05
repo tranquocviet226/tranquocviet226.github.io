@@ -1,0 +1,83 @@
+[
+  {
+    "en":"colorblind",
+    "vi":"Mù màu",
+    "pronunciation": "/ˈkʌl.ɚ.blaɪnd/",
+    "image":"color_blind.png",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/u/usc/uscld/uscld00242.mp3",
+    "example":"I'm red-green colour-blind",
+    "trans": ""
+  },
+  {
+    "en":"proposal",
+    "vi":"Đề xuất, đề nghị",
+    "pronunciation": "/prəˈpoʊ.zəl/",
+    "image":"proposal.jpg",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/p/pro/propo/proposal.mp3",
+    "example":"50 people voted against the new proposal",
+    "trans": ""
+  },
+  {
+    "en":"Multiplication",
+    "vi":"Phép nhân",
+    "pronunciation": "/mʌltɪplɪˈkeɪʃən/",
+    "image":"mul_divi.jpg",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/e/eus/eus73/eus73127.mp3",
+    "example":"This type of drug prevents cell multiplication",
+    "trans": "Loại thuốc này ngăn ngừa sự nhân lên của tế bào"
+  },
+  {
+    "en":"Subtraction",
+    "vi":"Phép trừ",
+    "pronunciation": "/səbˈtrækʃən/",
+    "image":"subtraction.png",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/s/sub/subtr/subtraction.mp3",
+    "example":"The test involves simple calculations, such as addition and subtraction.",
+    "trans": "Bài kiểm tra liên quan đến các phép tính đơn giản , chẳng hạn như cộng và trừ"
+  },
+  {
+    "en":"Operation",
+    "vi":"Hoạt động, thao tác",
+    "pronunciation": "/ɒpəˈreɪʃən/",
+    "image":"operating-system.webp",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/e/eus/eus75/eus75233.mp3",
+    "example":"The plan was put into operation",
+    "trans": "Kế hoạch đã được đưa vào hoạt động"
+  },
+  {
+    "en":"Perform",
+    "vi":"Tiến hành, thi hành",
+    "pronunciation": "/pəˈfɔːm/",
+    "image":"perform.png",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/e/eus/eus73/eus73497.mp3",
+    "example":"Computers can perform a variety of tasks",
+    "trans": "Máy tính có thể thực hiện nhiều tác vụ khác nhau"
+  },
+  {
+    "en":"Variety",
+    "vi":"Đa dạng, nhiều",
+    "pronunciation": "/vəˈraɪ.ə.t̬i/",
+    "image":"variety.png",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/e/eus/eus74/eus74810.mp3",
+    "example":"Computers can perform a variety of tasks",
+    "trans": "Máy tính có thể thực hiện nhiều tác vụ khác nhau"
+  },
+  {
+    "en":"Pulse",
+    "vi":"Xung, mạch, sự đập",
+    "pronunciation": "/pʌls/",
+    "image":"pulse.jpg",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/p/pul/pulse/pulse.mp3",
+    "example":"Exercise increases your pulse rate",
+    "trans": "Tập thể dục làm tăng nhịp mạch của bạn"
+  },
+  {
+    "en":"Tape",
+    "vi":"Ghi băng, băng",
+    "pronunciation": "/teɪp/",
+    "image":"tape.png",
+    "audio": "https://dictionary.cambridge.org/media/english/us_pron/t/tap/tape_/tape.mp3",
+    "example":"If you give me a blank tape I'll record it for you.",
+    "trans": "Nếu bạn đưa cho tôi một cuộn băng trắng tôi sẽ ghi lại cho bạn"
+  }
+]

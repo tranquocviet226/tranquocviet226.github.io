@@ -1,0 +1,19 @@
+#slider {
+  position: relative;
+  margin-top: 56px;
+  padding-top: 40%;
+  background: rgb(208, 252, 247);
+  background: linear-gradient(90deg, rgba(208, 252, 247, 1) 0%, rgba(205, 229, 251, 1) 17%, rgba(229, 223, 255, 1) 35%, rgba(224, 243, 255, 1) 50%, rgba(255, 236, 254, 1) 65%, rgba(255, 233, 247, 1) 83%, rgba(255, 224, 224, 1) 100%);
+  border-radius: 10px;
+}
+
+#slider .text-content {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  transform: translateX(-70%)
+}
+
+#slider .text-content .text-heading {
+  color: #000;
+}
