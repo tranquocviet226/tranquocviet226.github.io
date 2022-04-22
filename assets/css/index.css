@@ -1,20 +1,27 @@
-/* #009C9A */
-
 :root {
-  --primary: #009C9A;
+  --primary: #FF6842;
   --white: #FFF;
-  --black: #000
+  --black: #000;
+  --hover: lightgray;
+  --steal: rgb(234, 255, 255);
+  --background: #E75874;
+  --linear-gradient: linear-gradient(90deg, rgba(234, 255, 255, 1) 0%, rgba(240, 255, 254, 1) 14%, rgba(251, 245, 255, 1) 32%, rgba(255, 244, 253, 1) 55%, rgba(241, 240, 255, 1) 77%, rgba(255, 244, 247, 1) 100%);
+  --header-height: 56px;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #header {
-  height: 56px;
+  height: var(--header-height);
   background-color: #FFF;
   position: fixed;
   top: 0;
@@ -35,7 +42,7 @@
 #nav li {
   display: inline-block;
   width: 111px;
-  height: 56px;
+  height: var(--header-height);
   margin-right: 4px;
   position: relative;
 }
@@ -45,6 +52,10 @@
   width: 111px;
   cursor: pointer;
   padding-top: 12px;
+}
+
+#nav li a {
+  text-decoration: none;
 }
 
 .active {
@@ -64,6 +75,7 @@
 #nav li .icon {
   width: 28px;
   height: 28px;
+  font-size: 40px;
   display: block;
   margin: 0 auto;
 }

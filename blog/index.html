@@ -10,50 +10,7 @@
 
 <body>
   <div id="main">
-    <div id="header">
-      <ul id="nav">
-        <li>
-          <a aria-label="" href="/">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/home.png" class="icon" />
-              <span class="tooltiptext">Trang chủ</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/course">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/book.png" class="icon" />
-              <span class="tooltiptext">Khóa học</span>
-            </div>
-          </a>
-        </li>
-        <li class="active">
-          <a aria-label="" href="/blog">
-            <div>
-              <img alt="" src="../assets/icons/writing_active.png" class="icon" />
-              <span class="tooltiptext">Bài viết</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/collection">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/collection.png" class="icon" />
-              <span class="tooltiptext">Sưu tập</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/more">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/menu.png" class="icon" />
-              <span class="tooltiptext">Tiện ích</span>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ui-header active="blog"></ui-header>
 
     <div id="blog_content">
       <h2>English Vocabulary</h2>
@@ -87,6 +44,7 @@
   <div>
     
   </div>
+  <script src="../ui-components/ui-header/ui-header.js" ></script>
   <script src="blog.js" type="module" ></script>
   <script src="../assets/js/index.js" ></script>
 </body>
