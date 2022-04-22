@@ -1,0 +1,4 @@
+#course .container{
+  margin-top: var(--header-height);
+  padding: 20px 20px;
+}

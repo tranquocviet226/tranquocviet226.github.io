@@ -1,0 +1,38 @@
+#collection {
+  margin-top: var(--header-height);
+  padding: 20px;
+}
+
+#collection .list_post ol {
+  list-style: none;
+}
+
+#collection .list_post ol li {
+  counter-increment: list-id;
+  cursor: pointer;
+}
+
+#collection .list_post ol li:hover {
+  background: var(--steal);
+  background: var(--linear-gradient);
+}
+
+#collection .list_post ol li::before{
+  content: counter(list-id) ".";
+  color: var(--primary);
+  font-weight: 700;
+}
+
+#collection .list_post li {
+  margin-left: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px -3px var(--primary);
+}
+
+#collection .list_post li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 700;
+}

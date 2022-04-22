@@ -4,66 +4,27 @@
 <head>
   <title>Khóa học</title>
   <link rel="stylesheet" href="../assets/css/index.css" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
   <div id="main">
-    <div id="header">
-      <ul id="nav">
-        <li>
-          <a aria-label="" href="/">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/home.png" class="icon" />
-              <span class="tooltiptext">Trang chủ</span>
-            </div>
-          </a>
-        </li>
-        <li class="active">
-          <a>
-            <div>
-              <img alt="" src="../assets/icons/book_active.png" class="icon" />
-              <span class="tooltiptext">Khóa học</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/blog">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/writing.png" class="icon" />
-              <span class="tooltiptext">Bài viết</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/collection">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/collection.png" class="icon" />
-              <span class="tooltiptext">Sưu tập</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a aria-label="" href="/more">
-            <div class="header_hover">
-              <img alt="" src="../assets/icons/menu.png" class="icon" />
-              <span class="tooltiptext">Tiện ích</span>
-            </div>
-        </li>
-      </ul>
-    </div>
+    <ui-header active="course"></ui-header>
 
-    <div id="slider">
-      COURSE
-    </div>
-
-    <div id="content">
-
-    </div>
-
-    <div id="footer">
-
+    <div id="course">
+      <div class="container">
+        <ol>
+          <li> <a href="/course/html-css">HTML/CSS </a></li>
+          <li>Javascript</li>
+          <li>React JS</li>
+          <li>NodeJS</li>
+        </ol>
+      </div>
     </div>
   </div>
+
+  <script src="../ui-components/ui-header/ui-header.js"></script>
+  <script src="course.js"></script>
 </body>
 
 </html>
