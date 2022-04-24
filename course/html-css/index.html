@@ -10,46 +10,38 @@
 <body>
   <div id="main">
     <ui-header active="course"></ui-header>
-    <div id="collection">
-      <div class="side-bar">
-        <nav class="navigation">
-          <h3>HTML/CSS</h3>
+    <div id="html-css">
+
+      <ui-sidebar title="HTML/CSS Tutorial" active="introduction"> </ui-sidebar>
+      <div class="main-content">
+        <h3 class="title">HTML là gì?</h3>
+        <div class="content">
           <ul>
             <li>
-              <a href="#about">About</a>
-              <a href="#products">Products</a>
-              <a href="#services">Services</a>
-              <a href="#contact">Contact</a>
-              <a href="#gallery">Gallery</a>
+              <p>HTML(Hyper Text Markup Language): Là ngôn ngữ đánh dấu tiêu chuẩn để tạo ra trang web</p>
             </li>
+            <li>
+              <p>HTML mô tả cấu trúc của một trang web</p>
+            </li>
+            <li>HTML bao gồm nhiều phần tử và HTML báo cho các trình duyệt biết cách hiển thị nội dung của các phần tử
+              đó như thế nào
           </ul>
-        </nav>
-      </div>
-      <div class="main-content">
-        <section id="about">
-          <h1>About</h1>
-          <p>This is a fork of <a href="https://codepen.io/dbilanoski/pen/LabpzG">the original by Danilo Bilanoski</a>,
-            updated to allow the sections to be placed inside a relative parent. See the JS file comments for details.
-          </p>
-        </section>
-        <section id="products">
-          <h1>Products</h1>
-        </section>
-        <section id="services">
-          <h1>Services</h1>
-        </section>
-        <section id="contact">
-          <h1>Contact</h1>
-        </section>
-        <section id="gallery">
-          <h1>Gallery</h1>
-        </section>
+        </div>
+
+        <h3 class="title">Ví dụ về tệp HTML</h3>
+          <ui-code-block class="html-example"></ui-code-block>
+
+        <h3 class="title">Trình duyệt hiển thị nội dung trên</h3>
+        <img src="../../assets/imgs/html-css/html-example-1.png"/>
       </div>
     </div>
   </div>
 
-  <script src="../../ui-components/ui-header/ui-header.js"></script>
-  <script src="collection.js"></script>
+	<script src="./../../assets/js/functions.js"></script>
+	<script src="./../../assets/js/ui.js" type="module"></script>
+  <script src="index.js"></script>
+  <script src="html-css.js"></script>
+
 </body>
 
 </html>

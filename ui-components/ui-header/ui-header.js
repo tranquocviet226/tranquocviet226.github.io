@@ -51,4 +51,4 @@ class UiHeader extends HTMLElement {
   }
 }
 
-customElements.define('ui-header', UiHeader)
+export default UiHeader

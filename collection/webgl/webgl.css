@@ -1,37 +1,12 @@
 #webgl {
   margin-top: var(--header-height);
+  display: flex;
 }
 
-.sidebar {
-  background-color: var(--primary);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 200px;
-  min-height: 100vh;
+#webgl .content {
+  margin: 20px;
 }
 
-.sidebar .title {
-  padding: 16px;
-}
-
-.sidebar ol {
-  list-style: none;
-}
-
-.sidebar ol li {
-  cursor: pointer;
-  color: var(--primary);
-  font-weight: 700;
-  margin-bottom: 2px;
-  padding: 16px;
-  margin-right: 2px;
-  background-color: #FFF;
-}
-
-.sidebar ol li:hover {
-  background-color: lightskyblue;
-}
-
-.sidebar ol .active {
-  background-color: green;
+#webgl .content h3 {
+  font-size: 16px;
 }

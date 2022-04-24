@@ -11,15 +11,36 @@
   <div id="main">
     <ui-header active="collection"></ui-header>
     <div id="webgl">
-      <ui-sidebar title="WebGL Tutorial" data="webgl" active="introduction">
+      <ui-sidebar title="WebGL Tutorial" active="introduction">
       </ui-sidebar>
+      <div class="content">
+        <p>WebGL (Web Graphics Library) là thư viện đồ họa web được dùng để hiển thị 2D và 3D tương tác. Nó có nguồn
+          gốc
+          từ thư viện ES 2.0 của OpenGL, Mã WebGL được viết trong thẻ <code>< canvas ></code> của HTML5</p>
+        <br>
+        <h3>Ưu điểm của WebGL</h3>
+        <ul style="margin-top: 10px">
+          <li>
+            <b>Lập trình WebGL bằng Javascript</b>
+          </li>
+          <li>
+            <b>Mã nguồn mở</b>
+          </li>
+          <li>
+            <b>Không cần biên soạn:</b> Trình duyệt có thể đọc được Javascript mà không càn biên dịch. Do đó các
+            ứng dụng
+            WebGL chỉ cần mở trình duyệt lên là hiểu được.
+          </li>
+          <li><b>Dễ dàng thiết lập:</b> WebGL được tích hợp sẵn trong HTML5 nên không cần thiết lập gì thêm </li>
+        </ul>
+      </div>
     </div>
   </div>
+  </div>
 
+	<script src="./../../assets/js/functions.js"></script>
+	<script src="./../../assets/js/ui.js" type="module"></script>
   <script src="webgl.js"></script>
-  <script src="../../ui-components/ui-header/ui-header.js"></script>
-  <script src="../../ui-components/ui-sidebar/ui-sidebar.js"></script>
-  <script src="../../assets/js/index.js"></script>
 </body>
 
 </html>
