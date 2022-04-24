@@ -1,4 +1,3 @@
-
 class UiSidebar extends HTMLElement {
   constructor() {
     super()
@@ -11,7 +10,7 @@ class UiSidebar extends HTMLElement {
       data = JSON.parse(data)
       if (data) {
         const side = data.map(item => {
-          return `<li class="${active === item.key ? 'active' : ''}" onClick="goToURL('${item.path}')">
+          return `<li class="${active === item.key ? 'sidebar_active' : ''}" onClick="goToURL('${item.path}')">
             <a>${item.title}</a>
           </li>`
         }).join('')
@@ -32,4 +31,4 @@ class UiSidebar extends HTMLElement {
   }
 }
 
-customElements.define('ui-sidebar', UiSidebar)
+export default UiSidebar
