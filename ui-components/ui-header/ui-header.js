@@ -1,3 +1,4 @@
+import { url } from '../../assets/js/utils'
 class UiHeader extends HTMLElement {
   constructor() {
     super()
@@ -9,16 +10,16 @@ class UiHeader extends HTMLElement {
       { id: 'collection', title: 'Sưu tập', path: '/collection', icon: 'collection' },
       { id: 'more', title: 'Tổng hợp', path: '/more', icon: 'menu' },
     ]
-    
+
     const headerTemplate = (key) => {
-      const url = 'http://127.0.0.1:5500/assets/icons/'
+      const urlIcon = `${url}assets/icons/`
       const header = listHeader.map(item => {
         const active = key === item.id
-    
+
         const path = item.path
-        const icon = url + (active ? item.icon + '_active' : item.icon) + '.svg'
+        const icon = urlIcon + (active ? item.icon + '_active' : item.icon) + '.svg'
         const title = item.title
-    
+
         return `
         <li class="${active ? 'active' : ''}">
           <a aria-label="" href="${path}">
@@ -35,7 +36,7 @@ class UiHeader extends HTMLElement {
           </a>
         </li>
         `}).join('')
-    
+
       return `
       <div id="header">
         <ul id="nav">
@@ -44,7 +45,7 @@ class UiHeader extends HTMLElement {
       </div>
       `
     }
-    
+
     const keyActive = this.getAttribute('active')
     const header = headerTemplate(keyActive)
     this.innerHTML = header
