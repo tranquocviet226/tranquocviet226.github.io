@@ -1,0 +1,71 @@
+#html-css-interview {
+  display: flex;
+  margin-top: var(--header-height);
+}
+
+#html-css-interview * {
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+
+#html-css-interview .content {
+  margin: 20px;
+  margin-left: calc(20px + var(--sidebar-width));
+  width: 100%;
+}
+
+#html-css-interview .sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  background-color: #FFF;
+}
+
+#html-css-interview .collapsible {
+  background-color: var(--background);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+#html-css-interview .active, .collapsible:hover {
+  background-color: var(--primary3);
+  color: black;
+}
+
+#html-css-interview .collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#html-css-interview .active:after {
+  content: "\2212";
+}
+
+#html-css-interview .collapsible-content {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#html-css-interview .collapsible-content .content-view {
+  padding: 16px;
+  background: var(--linear-gradient)
+}
+
+#html-css-interview .collapsible-content .content-view ul{
+  padding-left: 10px;
+}
+
+#html-css-interview ui-code-block {
+  padding: 0
+}
