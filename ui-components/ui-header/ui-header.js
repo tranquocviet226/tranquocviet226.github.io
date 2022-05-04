@@ -1,4 +1,3 @@
-import { url } from '../../assets/js/utils'
 class UiHeader extends HTMLElement {
   constructor() {
     super()

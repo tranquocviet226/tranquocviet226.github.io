@@ -1,11 +1,11 @@
-class UiCode extends HTMLElement {
+class UiTag extends HTMLElement {
   constructor() {
     super()
 
     const tag = this.textContent.trim()
-    const content = tag
+    const content = `<${tag}>`
     this.textContent = content
   }
 }
 
-export default UiCode
+export default UiTag

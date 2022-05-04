@@ -120,7 +120,7 @@ html {
 
 .sidebar .title {
   padding: 16px;
-  color: var(--primary5);
+  color: var(--primary4);
 }
 
 .sidebar ol {
@@ -157,5 +157,11 @@ ui-code-block {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  padding: 20px;
+  padding: 16px;
+}
+
+ui-tag {
+  font-family: Consolas, "courier new";
+  background-color: #eee;
+  color: #ff4d4d;
 }
