@@ -776,6 +776,46 @@ img {
     justify-self: center;
 }
 
+.portfolio__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.portfolio__tech div {
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    color: #FFF;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.portfolio__tag-typescript {
+    background-color: #3178C6;
+}
+.portfolio__tag-javascript {
+    background-color: #F7DF1E;
+}
+.portfolio__tag-react {
+    background-color: #61DBFB;
+}
+.portfolio__tag-next {
+    background-color: #f910e5;
+}
+.portfolio__tag-firebase {
+    background-color: #FFCB2B;
+}
+.portfolio__tag-tailwind {
+    background-color: #4DC0B5;
+}
+.portfolio__tag-nodejs {
+    background-color: #3c873a;
+}
+.portfolio__tag-material {
+    background-color: #1976d2;
+}
+
 .portfolio__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
