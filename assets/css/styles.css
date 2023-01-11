@@ -241,6 +241,10 @@ img {
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
+    .qualification__container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
 
 .nav__list {
@@ -345,10 +349,6 @@ img {
 
 .home__description {
     margin-bottom: var(--mb-2);
-}
-
-.home__scroll {
-    /*display: none;*/
 }
 
 .home__scroll-button {
@@ -622,6 +622,16 @@ img {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    margin-top: 8px;
+    padding-left: 16px;
+}
+
+.certification__title {
+    margin-bottom: 8px;;
+}
+
+.qualification__subtitle ul li {
+    list-style: disc;
 }
 
 .qualification__calendar {
@@ -661,7 +671,12 @@ img {
     border-bottom: 3px solid var(--first-color-alt);
     border-radius: .2rem;
 }
-
+.qualification__certification-img {
+    margin: 16px auto;
+}
+.qualification__certification-img img {
+    width: 200px;
+}
 /*==================== SERVICES ====================*/
 .services__container {
     gap: 1.5rem;
@@ -1079,10 +1094,6 @@ img {
         margin-bottom: 4rem;
     }
 
-    .qualification__data {
-        gap: .5rem;
-    }
-
     .services__container {
         grid-template-columns: max-content;
         justify-content: center;
@@ -1100,6 +1111,14 @@ img {
         width: 200px;
     }
 
+    .qualification__data {
+        gap: .5rem;
+        column-gap: 0.5rem;
+    }
+
+    .qualification__certification-img img {
+        width: 150px;
+    }
     /*============= This is not implemented now ===============*/
     /*.testimonial__data,*/
     /*.testimonial__header{*/
@@ -1128,6 +1147,13 @@ img {
         gap: 8px;
         margin: 16px;
         margin-bottom: 4rem;
+    }
+    .qualification__data {
+        gap: .5rem;
+        column-gap: 0.5rem;
+    }
+    .qualification__certification-img img {
+        width: 150px;
     }
 }
 
@@ -1166,6 +1192,13 @@ img {
         gap: 8px;
         margin: 16px;
         margin-bottom: 4rem;
+    }
+    .qualification__data {
+        gap: .5rem;
+        column-gap: 1.5rem;
+    }
+    .qualification__certification-img img {
+        width: 200px;
     }
 }
 
@@ -1286,7 +1319,7 @@ img {
     }
 
     .qualification__sections {
-        grid-template-columns: .5fr;
+        grid-template-columns: 1fr;
     }
 
     .services__container {
